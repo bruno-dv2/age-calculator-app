@@ -1,0 +1,141 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;  
+  }
+
+  body{
+    background-image: url("design/download\ \(1\).jfif");
+  }
+
+  main{
+    margin: 80px 20px;
+    background-color:  hsl(133, 96%, 73%);
+    border-radius: 20px 20px 100px 20px;
+    height: 500px;
+  }
+
+  .container{
+    display: flex;
+    padding: 55px 15px;  
+  }
+
+  .roxo{
+    color:hsl(251, 79%, 52%);
+    letter-spacing: 15px;
+  }
+
+  .inputs{
+    font-size: 28px;
+    border-radius: 6px;
+    border: 1px solid;
+    width: 100%;
+    border-color: hsl(0, 32%, 54%);
+    padding-left: 10px;
+    outline: none; 
+  }
+
+  label{  
+    color: hsl(0, 1%, 44%);
+    letter-spacing: 2px;
+     font-size: 13px;
+  }
+
+  .flex{
+    margin: 0px  7px;
+  }
+
+  .icon {
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    margin: -35px 140px;
+  }
+
+  img{
+    background: url("assets/images/favicon-32x32.png");
+    border-radius: 100%;
+    width: 15px;
+    padding: 15px;  
+  }
+
+.divider-1{
+  height: 1px;
+  background-color:  hsl(0, 1%, 32%);
+  margin: 0px 20px; 
+}
+
+.years{
+  margin: 40px 20px;
+  color: hsl(0, 0%, 32%)
+}
+
+.text{
+  font-size: 43px;
+  font-weight: 800;
+  font-style: italic;
+  color: hsl(0, 0%, 32%)
+}
+
+.span{
+  font-style: italic;
+  font-weight: 400;
+  font-size: 8px;
+  color: red; 
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    width: 700px;
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -65%);
+    border-radius: 20px 20px 150px 20px;
+  }
+
+   .flex{ 
+    width: 150px;
+    margin-right: 12px;  
+    margin-bottom: 2px;
+   }
+   
+  .inputs{
+    width: 140px;
+    height: 60px;
+    padding-left: 20px;
+    color: rgb(78, 78, 78);
+  }
+
+  .container{
+    margin-left: 20px;
+    padding-bottom: 35px;
+    color: rgb(99, 99, 99);
+  }
+
+  .years{ 
+    margin-left: 40px;
+    margin-top: 0px;
+    color: rgb(107, 107, 107);
+  }
+
+  .text{
+    font-size:80px;
+    height: 80px;
+    color: rgb(90, 90, 90);
+  }
+
+  .divider-1{
+    margin-left: 40px;
+    margin-right: 90px;
+    color: rgb(107, 107, 107);
+  }
+
+  .icon{
+    margin: -35px 550px;
+    color: rgb(107, 107, 107);
+  }
+}
